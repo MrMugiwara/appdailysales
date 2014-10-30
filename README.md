@@ -1,12 +1,8 @@
-appdailysales
-=============
-script Python pour télécharger iTunes Connect rapports de vente quotidiens.
-
 Introduction
 AppDailySales est un script Python qui permettent de télécharger des fichiers de rapport quotidien des ventes à partir du site Web iTunes Connect.
 
 Référentiel de code source a déménagé
-Le référentiel de code source de ce script a déménagé à github . Il est maintenant disponible à l'adresse: https://github.com/kirbyt/appdailysales
+Le référentiel de code source de ce script a déménagé à github . Il est maintenant disponible à l'adresse: https://github.com/hacker404/appdailysales
 
 Comment utiliser
 AppDailySales peuvent être utilisés en tant que programme autonome ou en tant que partie d'un autre script.
@@ -37,19 +33,8 @@ Remarque: Le script retournera le code de sortie 0 en cas de succès, sinon le c
 Utiliser comme partie d'un autre script
 Depuis la version 1.3 de la AppDailySales script peut être utilisé dans le cadre d'un autre script. Il suffit de appdailysales d'importation, définissez les options de rapport, et appellent la fonction downloadFile. Voici un fichier de script pour vous aider à démarrer:
 
-
-
-
-
-
-
-
-
  Identifiant Apple » 
   des options . mot de passe =  'Votre 
- 
- 
- 
   
 
      fichier téléchargé: ' , nom de fichier 
@@ -58,6 +43,7 @@ Depuis la version 1.3 de la AppDailySales script peut être utilisé dans le cad
         
 si __name__ ==  '__main__ " : 
   principal ()
+  
 La fonction appdailysales.downloadFile retourne le nom du dernier fichier téléchargé. Veillez à inclure un bloc de try..except autour de l'appel à la gérer correctement les erreurs qui peuvent se produire pendant le téléchargement.
 
 Téléchargez les rapports sur plusieurs jours
@@ -85,7 +71,7 @@ Ajout du support proxy. (Merci stakemura)
 Version 2.8
 
 Mise à jour du script pour soutenir les derniers changements de l'ITC.
-Déplacez référentiel de code source à github. ( https://github.com/hacker404t/appdailysales )
+Déplacez référentiel de code source à github. ( https://github.com/hacker404/appdailysales )
 Version 2.7
 
 Modifié le script pour faire plusieurs tentatives de chargement de la page par défaut du fournisseur avant de signaler une erreur.
