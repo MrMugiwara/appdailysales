@@ -1,4 +1,5 @@
-Introduction
+<h1>Introduction</h1>
+
 AppDailySales est un script Python qui permettent de télécharger des fichiers de rapport quotidien des ventes à partir du site Web iTunes Connect.
 
 Référentiel de code source a déménagé
